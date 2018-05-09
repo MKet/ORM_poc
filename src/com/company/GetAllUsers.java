@@ -7,7 +7,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.util.List;
 
-public class Main {
+public class GetAllUsers {
 
     public static void main(String[] args) {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("manager1");

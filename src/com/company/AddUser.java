@@ -8,7 +8,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import java.util.Scanner;
 
-public class MainAdd {
+public class AddUser {
     public static void main(String[] args) {
         User user = new User();
 
