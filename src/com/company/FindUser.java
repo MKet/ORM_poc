@@ -24,7 +24,7 @@ public class FindUser {
 
         EntityManager entityManager = factory.createEntityManager();
 
-        User u = (User) entityManager.createQuery("from User u where u.name = :usename and u.password = :password")
+        User u = (User) entityManager.createQuery("from User u where u.name = :username and u.password = :password")
                 .setParameter("username", user.getName())
                 .setParameter("password", user.getPassword())
                 .getSingleResult();
